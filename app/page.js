@@ -99,7 +99,7 @@ export default function HomePage() {
           </h1>
 
           <p className="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-            FinAI brings together smart expense tracking, AI insights, and beautiful visualisations so you can make every rupee count. Start your financial journey today — it's free.
+            FinAI brings together smart expense tracking, AI insights, and beautiful visualisations so you can make every rupee count. Start your financial journey today — it&apos;s free.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -205,7 +205,7 @@ export default function HomePage() {
                     <Star key={i} size={14} className="fill-amber-400 text-amber-400" />
                   ))}
                 </div>
-                <p className="text-slate-300 text-sm leading-relaxed flex-1">"{t.text}"</p>
+                <p className="text-slate-300 text-sm leading-relaxed flex-1">&quot;{t.text}&quot;</p>
                 <div className="flex items-center gap-3 pt-2 border-t border-white/5">
                   <div className="w-9 h-9 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white text-xs font-bold">
                     {t.avatar}

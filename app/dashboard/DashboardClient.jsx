@@ -139,7 +139,7 @@ export default function DashboardClient({
             Good {new Date().getHours() < 12 ? 'morning' : new Date().getHours() < 18 ? 'afternoon' : 'evening'},{' '}
             <span className="gradient-text">{user?.name?.split(' ')[0] ?? 'User'}</span> 👋
           </h1>
-          <p className="text-slate-400 text-sm mt-1">Here's your financial overview for this month</p>
+          <p className="text-slate-400 text-sm mt-1">Here&apos;s your financial overview for this month</p>
         </div>
         <div className="flex items-center gap-4">
           <div>
